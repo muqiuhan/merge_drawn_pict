@@ -1,0 +1,11 @@
++------------------+
+| merge_drawn_pict |
++------------------+
+
+  A simple tool to merge pictures to pdf
+
+o- DEPENDS
+   raco pkg install metapict (used for save-pict-as-pdf)
+
+o- USAGE
+   racket main.rkt -p [pictures directory] -n [output pdf name]
